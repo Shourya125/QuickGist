@@ -1,0 +1,32 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(200, 218, 218);
+    padding: 5px;
+    
+    .heading{
+        background-color: rgb(96, 175, 175);
+        padding: 8px 3px;
+        text-align: center;
+        font-size:30px;
+        border-radius: 10px;
+        height:60px;
+    }
+
+    .summ{
+        overflow-y: scroll;
+        background-color: rgb(238, 247, 247);
+        margin-top: 5px;
+        
+        height: 220px;
+        padding: 5px;
+        font-size: 15px;
+        /* text-align: center; */
+    }
+}
